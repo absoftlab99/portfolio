@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.con{
+    width: 920px;
+    margin: 0 auto;
+}
+.nav{
+    height: 80px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+}
+.logo{
+    width: 200px;
+    float: left;
+}
+.logo h1{
+    line-height: 80px;
+    font-weight: 900;
+}
+.logo span{
+    color: tomato;
+}
+.menu{
+    width: 600px;    
+    float: left;
+}
+.menu ul{
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li{
+    line-height: 80px;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+}
+.btn{
+    width: 120px;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+}
+.btn button{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border: 1px solid gray;
+}
